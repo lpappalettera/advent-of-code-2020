@@ -27,7 +27,6 @@ def count(bag):
 with open("input.txt") as file:
     data = parse(file.read().splitlines())
 
-
 print("PART ONE")
 part1 = sum([contains(it, 'shiny gold') for it in data])
 print(part1)
